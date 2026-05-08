@@ -1,0 +1,90 @@
+.royal-intro p{
+    text-indent: 60px;
+    font-size: 18px;
+    padding: 20px 50px;
+    line-height: 2;
+}
+.royal-palace-title h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    color: #750808;
+
+}
+.royal-palace-title .rolaypalace-line{
+    width: 420px;
+    height: 5px;
+    background-color: #750808;
+    border-width: 100%;
+    margin: 10px auto 0 auto;
+}
+.royal-palace-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255,255,255);
+    margin-top: 30px;
+    padding: 50px 5% 50px 5% ;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    gap: 70px;           /*dak space nv kdal */
+}
+.royal-palace-detail .royal-pic {
+    flex: 1;
+}
+
+.royal-palace-detail .royal-pic img{
+    border-radius: 50px;
+    width: 600px;
+    height: 100%;
+    display: block;
+}
+.royal-palace-detail .royal-deteil{
+    flex: 1;
+}
+.royal-palace-detail .royal-deteil p{
+    font-size: 25px;
+    text-indent: 60px;
+}
+.royal-palace-detail .royal-deteil a{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    transition: all 0.2s linear;
+}
+.royal-palace-detail .royal-deteil a:hover{
+    background-color: #555;
+}
+
+@media (max-width:1280px){
+.royal-palace-detail .royal-deteil p{
+    font-size: 20px;
+}
+.royal-palace-detail .royal-pic img{
+    width: 500px;
+}
+}
+@media (max-width:1024px){
+.royal-palace-detail{
+    flex-direction: column;
+    text-align: center;
+}
+.royal-palace-detail .royal-pic img{
+    width: 600px;
+}
+.royal-palace-detail .royal-deteil p{
+    font-size: 20px
+}
+}
+@media(max-width:768px){
+    .royal-palace-detail .royal-pic img{
+    width: 450px;
+}
+.royal-palace-detail .royal-deteil p{
+    font-size: 20px
+}
+}

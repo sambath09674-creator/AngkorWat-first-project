@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    color: #750808;
+}
+.title .line {
+    width: 230px;
+    height: 5px;
+    background-color: #750808;
+    border-width: 100%;
+    margin: 10px auto 0 auto;
+}
+
+.intro-hotel p {
+    font-size: 18px;
+    line-height: 2;
+    color: #555;
+    padding: 20px 50px;
+    text-indent: 60px;
+}
+
+.small-title {
+    font-size: 25px;
+    padding-left: 45px;
+    color:#750808;
+}
+
+.hotel-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    margin-top: 15px;
+    background: white;
+    padding: 50px 5% 50px 15%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    
+}
+.hotel-card .hotel-text {
+    flex: 1;
+    text-align: left;
+
+}
+.hotel-card .hotel-text p {
+    font-size: 25px;
+    text-indent: 60px;
+}
+.hotel-card .hotel-text a {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #000000;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: all 0.2s linear;
+}
+.hotel-card .hotel-text a:hover {
+    background-color: #555;
+}
+.hotel-image {
+    flex: 1;
+}
+.hotel-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 40px;
+    display: block;   
+}
+@media (max-width:1024px){
+.hotel-card .hotel-text .discraib{
+    font-size: 20px;
+}
+.intro-hotel p{
+    font-size: 17px;
+
+}
+
+}
+@media (max-width:768px){
+.hotel-card .hotel-text .discraib{
+    font-size: 15px;
+}
+}
+
+@media(max-width: 640px){
+.hotel-card {
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+}
+.hotel-card .hotel-text .discraib{
+    font-size: 20px;
+}
+}

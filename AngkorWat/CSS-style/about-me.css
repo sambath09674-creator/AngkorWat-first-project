@@ -1,0 +1,17 @@
+.about-us-title {
+    color: #750808;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+}
+.about-us .line {
+    height: 5px;
+    width: 400px;
+    background-color: #750808;
+    margin: 10px auto 0 auto;
+}
+
+.about-us .about-paragraph {
+    padding: 20px 50pxs;
+    font-size: 25px;
+}
